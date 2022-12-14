@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Basic1 from './components/Basic1'
+import Basic2 from './components/Basic2'
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
-      < Basic1 name="Hooks" />
+      {/* < Basic1 name="Hooks" /> */}
+      <Basic2 />
     </div>
   );
 }
